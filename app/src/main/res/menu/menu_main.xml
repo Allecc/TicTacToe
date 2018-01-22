@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sledz.tictactoe.MainActivity">
+    <item android:id="@+id/newGame"
+        android:title="@string/new_game" >
+    </item>
+    <item android:id="@+id/playComputer"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/play_with_computer" >
+    </item>
+</menu>
